@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: python-api
+  namespace: default
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/alexsandroocanha/FastApi-Service-Manifests.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  
