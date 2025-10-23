@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-api
+  namespace: default
+  labels:
+    app: hello-api
+    tier: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-api
+  template:
+    metadata:
+      name: hello-api
+      labels:
+        app: hello-api
+    spec:
+      containers:
+        - name: hello-api
+          image: 
+            falace/api_python:ccc8ade90d3996a0c6f56c32176c3d47baacd9d4
+          ports:
+            - containerPort: 8000
