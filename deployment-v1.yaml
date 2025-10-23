@@ -17,18 +17,18 @@ spec:
     spec:
       containers:
         - name: hello-api
-          image: falace/api_python:deploy-2f329e54981998191d9a68cb4d4f9768d09d1071
+          image: falace/api_python:deploy-3463976811016c168f37463c08f372602f657ad9
           ports:
             - containerPort: 8000
           readinessProbe:
             httpGet:
-              path: /health
+              path: /
               port: 8000
             initialDelaySeconds: 5
             periodSeconds: 10
           livenessProbe:
             httpGet:
-              path: /health
+              path: /
               port: 8000
             initialDelaySeconds: 10
             periodSeconds: 20
