@@ -12,7 +12,18 @@ O CI/CD do repositório da aplicação abre um PR aqui atualizando a **tag da im
 * ArgoCD CLI instalado
 
 ### Topicos
-* [Visão Geral](#)
+* [Visão Geral](#visão-geral)
+* [Estrutura do Projeto](#estrutura-do-repositorio)
+* [Como rodar a Aplicação](#como-rodar-a-aplicação)
+* [Instalação do ArgoCD](#instalação-do-argocd)
+    * [Instalação do ArgoCD no Cluster](#instalando-o-argocd-no-cluster)
+    * [Autenticação do ArgoCD](#agora-vamos-autenticar-o-argocd)
+    * [Instalação do ArgoCD CLI](#instalação-da-cli-do-argocd)
+* [Configurando o Deploymento do ArgoCD](#configurando-o-deployment-argocd)
+* [Aplicando o Deploymento do ArgoCD](#aplicando-o-deployment)
+* [Testes](#testes)
+* [Merge / Commit & Atualizações](#merge--commit-e-atualização)
+* [Considerações Finais](#considerações-finais)
 
 ## Links Rapidos
 - Repo da Alicação: https://github.com/alexsandroocanha/FastApi-Service
@@ -265,6 +276,9 @@ Quando a pipeline é ativa, ele gera uma branch escrito `chore: add deployment-v
 Este é o segundo repositorio deste projeto, para acessar o primeiro repo, utilize o link abaixo.
 
 [![Github Pages](https://img.shields.io/badge/FastApi%20Service%20Manifests-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alexsandroocanha/FastApi-Service)
+
+* Caso tenha alguma duvida ou dificuldade, me mande um email que tentarei te ajudar
+* Trabalho atualizado `24/10/2025`
 
 
 ### Informações para Contato
