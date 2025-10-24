@@ -194,7 +194,7 @@ Se tudo der certo, a sua aplicação ira aparecer.
    align="center"
    alt="GitHub Stats"
    height="300"
-   src="image.png"
+   src="imagens/image.png"
    valign="top"
 />
 
@@ -211,7 +211,7 @@ kubectl get pods -n argocd
 <img
    alt="GitHub Stats"
    height="300"
-   src="image-2.png"
+   src="imagens/image-2.png"
    valign="top"
 />
 
@@ -223,7 +223,7 @@ kubectl port-forward deploy/hello-api -n argocd 8080:8000
 <img
    alt="GitHub Stats"
    height="300"
-   src="image-4.png"
+   src="imagens/image-4.png"
    valign="top"
 />
 
@@ -232,7 +232,7 @@ kubectl port-forward deploy/hello-api -n argocd 8080:8000
 <img
    alt="GitHub Stats"
    height="300"
-   src="image-3.png"
+   src="imagens/image-3.png"
    valign="top"
 />
 
@@ -242,29 +242,29 @@ Quando a pipeline é ativa, ele gera uma branch escrito `chore: add deployment-v
 <img
    alt="GitHub Stats"
    height="300"
-   src="image-1.png"
+   src="imagens/image-1.png"
    valign="top"
 />
 
 <img
    alt="GitHub Stats"
    height="300"
-   src="merge_01.png"
+   src="imagens/merge_01.png"
    valign="top"
 />
 
 <img
    alt="GitHub Stats"
    height="300"
-   src="merge_02.png"
+   src="imagens/merge_02.png"
    valign="top"
 />
 
 
 ### Considerações Finais
-Este é o primeiro repositorio, para dar continuidade iremos para o segundo repositorio.
+Este é o segundo repositorio deste projeto, para acessar o primeiro repo, utilize o link abaixo.
 
-[![Github Pages](https://img.shields.io/badge/FastApi%20Service%20Manifests-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alexsandroocanha/FastApi-Service-Manifests)
+[![Github Pages](https://img.shields.io/badge/FastApi%20Service%20Manifests-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alexsandroocanha/FastApi-Service)
 
 
 ### Informações para Contato
