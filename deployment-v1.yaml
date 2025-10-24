@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: hello-api
-          image: falace/api_python:deploy-bfcba697dc61ddeb3cd42d83a06f26d75ad048b8
+          image: falace/api_python:deploy-7777bf6324bb1a1047965aa5d64735370ee4f7f6
           ports:
             - containerPort: 8000
           readinessProbe:
